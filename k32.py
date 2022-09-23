@@ -46,9 +46,17 @@ class ktools:
 
 def main():
     """ Karel code goes here! """
-    
+    kt = ktools()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.put()
     pass
-
+    
 
 if __name__ == "__main__":
     run_karel_program()
