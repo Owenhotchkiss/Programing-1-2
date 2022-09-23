@@ -55,6 +55,43 @@ def main():
     kt.tr()
     kt.m()
     kt.put()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.put()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.put()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.put()
+        
+
+    
+          
     pass
     
 
