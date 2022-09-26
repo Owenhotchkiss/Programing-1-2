@@ -121,6 +121,28 @@ class ktools:
       self.put()
       self.m()
     self.put()
+  def zero(self):
+    """Make zero with beepers"""
+    self.tl()
+    self.putm(5)
+    self.tr()
+    self.m()
+    self.putm(3)
+    self.tr()
+    self.m()
+    self.putm(4)
+    self.tr()
+    self.m()
+    self.putm(3)
+    self.tl()
+    self.m()
+    self.tl()
+    self.mm(5)
+    self.tl()
+    self.m()
+    self.tr()
+    
+    
 
   
 
@@ -134,6 +156,16 @@ def main():
     kt.putm(5)
     kt.tl()
     kt.mm(2)
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    
     pass
 
 
