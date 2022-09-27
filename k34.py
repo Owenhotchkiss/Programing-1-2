@@ -184,9 +184,22 @@ def main():
     kt.m()
     kt.ta()
     kt.mm(2)
-    kt.tl()
+    kt.tr()
     kt.m()
     kt.put()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.put()
+        
+        
+    
+        
          
     
     pass
