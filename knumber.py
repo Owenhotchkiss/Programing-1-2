@@ -142,6 +142,11 @@ class ktools:
     self.m()
     self.tr()
     
+  def zerom(self, num):
+    """Put Zero multiple times"""
+    for _ in range(0, num):
+      self.zero() 
+    
     
 
   
@@ -156,15 +161,7 @@ def main():
     kt.putm(5)
     kt.tl()
     kt.mm(2)
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
+    kt.zerom(9)
     
     pass
 
