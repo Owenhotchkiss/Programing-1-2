@@ -157,6 +157,10 @@ class ktools:
           self.m()
           self.tl()
           self.m()
+  def mmaze(self, num):
+    """Multiple Mazemoves"""
+    for _ in range(0, num-1):
+      self.mazemove(28)
       pass
                  
     
@@ -167,34 +171,7 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
-    kt.mazemove()
+    kt.mmaze(28)
     pass
 
 
